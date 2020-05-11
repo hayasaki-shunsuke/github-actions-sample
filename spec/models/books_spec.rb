@@ -4,6 +4,6 @@ describe Book do
   let(:book) { FactoryBot.create(:book, name: '良さげな本') }
 
   describe '#name' do
-    it { expect(book.name).to eq '良さげな本' }
+    it { expect(book.name).to eq '良さげな本です。' }
   end
 end
